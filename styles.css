@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  width: auto;
+}
+body a {
+  color: #1363df;
+}
+main {
+  background-color: #eef0f6;
+}
+header {
+  height: 80px;
+  background-color: #3b5998;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header #facebook-logo {
+  margin-right: 300px;
+}
+header div.email,
+div.password {
+  color: white;
+  font-size: large;
+}
+header p {
+  margin-left: 10px;
+}
+.input-box {
+  width: 150px;
+  height: 20px;
+  margin-left: 10px;
+}
+#btn {
+  background-color: #5f78ab;
+  color: white;
+  padding: 2px;
+  border-radius: 1px;
+  margin-left: 2px;
+  border: 2px solid #3b5998;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container div.left-side {
+  flex-basis: 33%;
+  position: relative;
+  bottom: 100px;
+}
+div.left-side p {
+  color: #0f3960;
+  font-size: large;
+  font-weight: bold;
+  width: 80%;
+}
+div.left-side .social-icon {
+  width: 80%;
+  margin-top: 20px;
+}
+
+.container div.right-side {
+  flex-basis: 33%;
+  margin: 50px 0 0 30px;
+}
+.hr-size {
+  width: 70%;
+  margin: 10px 30px 0 0;
+  /* size:5px; */
+}
+h3 {
+  color: #173f65;
+}
+div.right-side #p-color {
+  color: #254b6e;
+}
+.signup-form {
+  margin-top: 20px;
+}
+.signup-form input {
+  width: 250px;
+  height: 30px;
+  margin: 2px;
+  text-align: center;
+  box-sizing: border-box;
+}
+label {
+  width: 100px;
+  display: inline-block;
+  margin: 1px;
+}
+select option {
+  padding: 10px;
+  border-radius: 2px;
+  font-weight: bold;
+}
+#signup-btn {
+  background-color: #67a54b;
+  color: white;
+  padding: 5px 20px 5px 20px;
+  margin: 10px 0 0 90px;
+}
+.p-terms {
+  width: 50%;
+  text-align: center;
+  margin: 10px 0 0 30px;
+}
+footer {
+  background-color: white;
+}
+div.hyperlinks {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+div.hyperlinks a {
+  margin: 5px;
+}
+#bottom-hr {
+  width: 57%;
+  margin-left: 21%;
+}
+#celebrity-p {
+  color: gray;
+  font-weight: bold;
+  margin: 5px 0 0 20px;
+  width: 70%;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+footer p {
+  color: gray;
+}
+footer .div-footer2 {
+  margin-left: 60px;
+}
